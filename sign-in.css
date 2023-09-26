@@ -1,0 +1,203 @@
+.sign-in-box {
+    background-color: white;
+    border: 2px solid rgba(128, 128, 128, 0.151);
+    border-radius: 3px;
+    width: 430px;
+    height: 320px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(32, 32, 32);
+}
+
+
+.sign-in-title {
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+.user-input {
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.Email {
+    margin-bottom: 5px;
+}
+
+.forgot-password {
+    margin-left: 200px;
+    text-decoration: none;
+    color: rgb(101, 101, 255);
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.continue {
+    background-color: rgb(255, 196, 0);
+    border-radius: 2px;
+    border: 1px solid gray;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.continue:hover {background-color: rgb(223, 172, 5)}
+
+.continue:active {
+  background-color: rgb(223, 172, 5);
+  box-shadow: 0 2px rgb(148, 114, 3);
+  transform: translateY(4px);
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+    border-left: 2px solid rgb(101, 101, 255);
+}
+
+.need-help-link {
+    color: rgb(101, 101, 255);
+    text-decoration: none;
+}
+
+.need-help-link:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    font-size: 14px;
+    height: 1.5em;
+    line-height: 1em;
+    position: relative;
+    text-align: center;
+}
+
+hr::before {
+    content: "";
+    background: linear-gradient(to right, transparent, black, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 400px;
+    margin-left: 750px;
+    height: 1px;
+}
+
+hr::after {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    content: attr(data-content);
+    line-height: 1.5em;
+    padding: 0 7px;
+    position: relative;
+}
+
+.create-account-area {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.create-account {
+    background-color: rgb(233, 231, 227);
+    border-radius: 2px;
+    border: 1px solid gray;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    margin: auto;
+}
+
+
+.create-account:hover {background-color: rgb(233, 231, 227)}
+
+.create-account:active {
+  background-color: rgb(187, 186, 183);
+  box-shadow: 0 2px rgb(168, 167, 165);
+  transform: translateY(4px);
+}
+
+.footer-links {
+    width: 100%;
+    border-top: solid rgb(182, 181, 181) 2px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+a {
+    color: rgb(101, 101, 255);
+    text-decoration: none;
+    text-align: justify;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    font-size: small;
+}
+
+.footer-item {
+    margin-right: 10px;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+
+.privacy-link {
+margin-right: -100px;
+margin-left: -100px;
+}
+
+.help-link {
+    margin-right: 80px;
+}
+
+.conditions-link {
+    margin-left: 10px;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: small;
+}
+
+.notes {
+    width: 100%;
+}
